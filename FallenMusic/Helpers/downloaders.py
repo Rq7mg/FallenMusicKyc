@@ -27,6 +27,7 @@ from yt_dlp import YoutubeDL
 ydl_opts = {
     "format": "bestaudio/best",
     "outtmpl": "downloads/%(id)s.%(ext)s",
+    "cookiefile": "cookies.txt",
     "geo_bypass": True,
     "nocheckcertificate": True,
     "quiet": True,
